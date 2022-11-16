@@ -2,19 +2,18 @@ import styled from "styled-components";
 
 import SeparatorCmp from "../component/SeparatorCmp";
 import LoginInfoCmp from "../component/LoginInfoCmp";
-import logo from "../image/bispol-logo.png";
 
 const TopBarLayout = () => {
     return <>
         <Container>
             <TitleContainer>
                 <Title>
-                    <TitleHeader>Tealight</TitleHeader>
-                    <TitleSubheader>Moduły wagowe na hali F</TitleSubheader>
+                    <TitleHeader>Moduły wagowe</TitleHeader>
+                    <TitleSubheader>Moduły wagowe</TitleSubheader>
                 </Title>
             </TitleContainer>
             <LogoContainer>
-                <Logo src={logo}/>
+                <Logo src=""/>
             </LogoContainer>
             <LoginInfoCmp/>
         </Container>
